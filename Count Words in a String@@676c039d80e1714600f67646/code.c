@@ -2,10 +2,10 @@
 #include<string.h> 
 int main(){
 char str[100];
-gets(str);
+scanf("%s",str);
 int count;
 for(int i=0;str[i]!=\0;i++){
-    count++
+    count++;
     printf("%d",count);
 }
   return 0;
