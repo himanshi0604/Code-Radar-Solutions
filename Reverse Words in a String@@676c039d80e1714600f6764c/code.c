@@ -3,7 +3,7 @@
 int main(){
     char str[40];
     puts("enter a str");
-    gets(str);
+    fgets(str);
     puts("the reverse is ");   //automatically \n bhi de deta ha
     //size kitna ha ? 
     int size = 0;
