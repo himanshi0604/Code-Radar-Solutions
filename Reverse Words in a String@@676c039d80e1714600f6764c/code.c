@@ -9,10 +9,8 @@ int main() {
         size++;
         i++;
     }
-    for (int k = 0, j = size - 1; k < j; k++, j--) {
-        char temp = str[k];
-        str[k] = str[j];
-        str[j] = temp;
+    for (int k=size-1;k<=0;k--) {
+       str[len-k]=str[k];
     }
     puts(str);
     return 0;
