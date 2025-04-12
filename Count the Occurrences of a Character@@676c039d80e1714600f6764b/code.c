@@ -11,5 +11,6 @@ int main() {
             count++;
         }
     }
+    print("%d",count);
     return 0;
     }
