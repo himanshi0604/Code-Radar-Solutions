@@ -9,7 +9,7 @@ int main() {
         size++;
         i++;
     }
-    for (int k=size-1;k<=0;k--) {
+    for (int k=size-1;k>=0;k--) {
         printf("%s",str[k]);
     }
     return 0;
