@@ -5,7 +5,7 @@ int main(){
     scanf("%s",str);
     int count = 1;
     for(int i=0;str[i] != \0;i++){
-        count++
+        count++;
     }
-    printf("%d",count)
+    printf("%d",count);
 }
