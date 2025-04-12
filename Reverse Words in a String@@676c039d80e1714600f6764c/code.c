@@ -10,7 +10,7 @@ int main() {
         i++;
     }
     for (int k=size-1;k<=0;k--) {
-        printf("%s",str[k])
+        printf("%s",str[k]);
     }
     return 0;
 }
