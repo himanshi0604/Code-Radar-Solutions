@@ -10,8 +10,7 @@ int main() {
         i++;
     }
     for (int k=size-1;k<=0;k--) {
-       str[len-k]=str[k];
+        printf("%s",str[k])
     }
-    puts(str);
     return 0;
 }
