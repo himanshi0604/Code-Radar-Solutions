@@ -9,7 +9,7 @@ int main() {
         len++;
     }  
     for(int j=0;str[j]!=0;j++){
-        str[len-i]=str[i];
+        str[len-j]=str[j];
     }
-    printf("%c",str);
+    printf("%s",str);
     }
