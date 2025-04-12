@@ -8,7 +8,7 @@ int main() {
     for(int i=0;str[i]!=0;i++){
         len++;
     }  
-    for(int j=0;str[j]!=0;j++){
+    for(int j=len;str[j]!=0;j--){
         str[len-j]=str[j];
     }
     printf("%s",str);
