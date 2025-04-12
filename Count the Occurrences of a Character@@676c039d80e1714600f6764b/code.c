@@ -2,7 +2,7 @@
 #include <string.h> 
 int main() {
     char str[100];
-    scanf("%s",str);
+    scanf("%s",str\n);
     int count;
     char c;
     scanf("%c",&c);
