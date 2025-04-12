@@ -3,5 +3,6 @@
 int main(){
     char str1[100];
     char str2[100];
-    printf("%c",str1+str2);
+    char c = str1 + str2;
+    printf("%c",c);
 }
