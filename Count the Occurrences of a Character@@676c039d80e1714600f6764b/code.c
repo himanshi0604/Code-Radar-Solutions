@@ -2,10 +2,10 @@
 #include <string.h> 
 int main() {
     char str[100];
-    scanf("%s",str\n);
+    scanf("%s",str);
     int count;
     char c;
-    scanf("%c",&c);
+    scanf("\n%c",&c);
     for(int i=0;str[i]!='\0';i++){
         if(str[i]==c){
             count++;
