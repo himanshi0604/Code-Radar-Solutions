@@ -3,14 +3,15 @@
 int main() {
     char str[40];
     fgets(str, sizeof(str), stdin);
-    int i = 0, j = 0;
-    while (str[i] != '\0') {
-        if (str[i] == ' ') {
-            str[i+1] = str[i]; 
-        }
-        i++;
+    int len;
+    while(str[i]!=0){
+        len++;
     }
-    printf("%s", str);
+    for(int k=len;i>=0;i--){
+        if(str[k]=' '){
+            str[k-1]=str[k];
+        }
+    }
+
+    }
     
-    return 0;
-}
